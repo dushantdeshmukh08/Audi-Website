@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Audi</title>
+    <style>
+        .main-section {
+            background-image: url(/public/images/main-banner.avif);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            opacity: 2px rgb(0, 0, 0);
+
+        }
+
+        .banner-text {
+            font-size: 45px;
+            font-family: sans-serif;
+        }
+        .text-car-side{
+            font-size: 65px;
+            font-family: sans-serif;
+            margin-top: 100px;
+        }
+
+
+        .main-section-02 {
+            background-image: url(/public/images/E-tronHub-3840X4000.avif);
+            height: 100vh;
+            background-position: center;
+            position: sticky;
+            top: 0;
+        }
+        .text-section01 {
+            padding-top: 100px;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .text-section02 {
+            padding-top: 100px;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .txt-audio{
+            font-size: 65px;
+            font-family: sans-serif;
+        }
+        .txt-ar{
+            font-size: 55px;
+            font-family: sans-serif;
+        }
+        .map-img{
+            background-size: cover;
+        }
+        .button-00{
+            margin-top: 20px;
+        }
+        .text-mobile{
+            margin-top: 400px;
+        }
+        .text-mobile h3{
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        .mobile-red{
+            display: grid; 
+            grid-template-columns: 7fr 5fr;
+             background-color: black;
+        }
+        @media screen and (max-width:1192px){
+
+            .mobile-red{
+            display: grid; 
+            grid-template-columns: 12fr;
+             background-color: black;
+             padding: 20px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg shadow-sm fs-5">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#"><img src="/public/images/audi-logo.jpg" height="30" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarA">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-2" id="navbarA">
+                <div class="mx-4"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fs-5">Models</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fs-5">Used Car</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fs-5">Customer area</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fs-5">Innovations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fs-5">Quick Links</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main-section -->
+    <main class="main-section">
+        <div class="m-2 p-5">
+            <h2 class="banner-text text-white ">
+                Some see a style statement, <br>
+                we see a power move.
+            </h2>
+            <p class="text-white fs-5">Powered by quattro</p>
+            <div class="d-flex">
+                <div>
+                    <button class=" btn btn-light rounded-0 me-1">Audi Q3</button>
+                </div>
+                <div>
+                    <button class="btn btn-outline-light rounded-0">Audi Q3 Sportback</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- car-carsousal -->
+    <section>
+        <div class="container-fluid">
+
+            <div class="mt-3 ms-5">
+                <h5 class="text-decoration-underline">Models</h5>
+            </div>
+            <div class="row py-5">
+                <div class="col">
+                    <a href="#"><img src="/public/images/e-tron.png" height="70" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="/public/images/e-tron.png" height="70" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="/public/images/a5.png" height="73" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="/public/images/a-6.avif" height="73" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="/public/images/a8.avif" height="73" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="/public/images/q-8.png" height="73" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-lg ">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/public/images/A86_883.avif" height="460" alt="">
+                </div>
+                <div class=" text-section01 col-md-6 ">
+                    <h2 class="txt-audio">Audi Virtual <br> Showroom</h2>
+                    <div>
+                        <button class="btn btn-dark rounded-0">Explore More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-lg  py-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/public/images/augmented.avif" height="460" alt="">
+                </div>
+                <div class="text-section02  col-md-6 ">
+                    <h2 class="txt-ar">Augmented Reality</h2>
+                    <div class="">
+                        <div class="btn btn-dark rounded-0 mb-5">e-tron</div>
+                        <div class="btn btn-outline-dark rounded-0 mb-5">e-tron Sportback</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-3">
+            <div class="row m-1">
+                <div class="col-md-3 bg-black text-center">
+                    <h2 class="text-center">Dealer Locator</h2>
+                    <button class="button-00 btn btn-outline-light text-center m-2">Explore More</button>
+
+                </div>
+                <div class="map-bg col-md-9">
+                    <img src="/public/images/map-imag.jpg" class="img-fluid"  alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="mobile-red">
+            <div class="">
+                <div class="text-mobile text-center">
+                    <h3 class="text-white">Because you expect more from your <br> Audi than just a drive from A to B. <br> Download it now, to get more of your <br> car on your phone.
+                        myAudi
+                    </h3>
+                    <div class="d-flex justify-content-center">
+                        <div><button class="btn btn-outline-light rounded-0 m-1">muAudio Connect</button></div>
+                        <div><button class="btn btn-outline-light rounded-0 m-1">Audio Shop</button></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="/public/images/my-audi-connect.webp" height="700px" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
